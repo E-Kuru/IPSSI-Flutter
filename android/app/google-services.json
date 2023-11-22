@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521390409536",
+    "project_id": "ipssiflutter-4fee9",
+    "storage_bucket": "ipssiflutter-4fee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521390409536:android:4c0e97271a245daef39ca5",
+        "android_client_info": {
+          "package_name": "com.example.isspi_bd3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxXzH5J5goxhOC2JgLoPKvhAkCsuCAq0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
