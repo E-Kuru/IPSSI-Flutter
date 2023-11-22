@@ -49,7 +49,13 @@ class _MyAllUsersState extends State<MyAllUsers> {
                               Icons.favorite,
                               color: Colors.red,
                             ),
-                            onPressed: () {},
+                            onPressed: () {
+                              setState(() {
+                                moi.favoris = [...moi.favoris!, lesAutres];
+                              });
+                                Map<String, dynamic> data = {'FAVORIS': lesAutres};
+                                MyFirebaseHelper().upadteUser(moi.uid, data);
+                            },
                           ),
                         ),
                       );
